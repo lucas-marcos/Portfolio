@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&family=Preahvihear&display=swap");
+
+/*
+
+
+* {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+*/
+
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #11071F;
+  width: 100vw;
+  height: 100vh;
+}
+p,
+h1,
+h6, h8, h5 {
+  font-family: "Preahvihear", sans-serif;
+  font-size: 19px;
+  font-weight: 400px;
+  font-style: normal;
+  letter-spacing: -0.5px;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 15px;
+}
+
+.purple-text {
+  color: #7127ba;
+}
+
+.navbar {
+  background-color: #1a0b2e !important;
+  height: 113px !important;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  border-left: 800px !important;
+}
+
+.circle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 188.58px;
+  height: 57.9px;
+  left: 875px;
+  top: 450.6px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(-4.74deg);
+  border-radius: 50%;
+}
+
+.picture{
+  position: relative;
+  width: 320px; /* ajuste para o tamanho da sua imagem */
+  height: 320px; /* ajuste para o tamanho da sua imagem */
+  margin: 0 auto; /* centraliza a div horizontalmente */
+  border-radius: 50%; /* torna a div circular */
+  overflow: hidden; /* esconde o conteúdo que ultrapassar a div */
+  background: radial-gradient(circle at center, rgba(118,60,172,1) 2%, rgba(50,15,133,0) 70%);
+
+}
+
+.picture img{
+  margin-left: 30px;
+  margin-top: -74px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+#about {
+  margin-top: 200px;
+}
+
+.about-me{
+  margin-top: 80px;
+}
+
+
+
+/* 
+
+.navbar-nav .nav-item {
+  margin-right: 800px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.picture {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} */
